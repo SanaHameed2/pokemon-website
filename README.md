@@ -1,4 +1,3 @@
-# pokemon-website-
 
 Welcome to the Pokemon Fan Website project repository! This project is a recreation of the official Pokémon website (pokemon.com) using only HTML and CSS. It is designed for practice and educational purposes, showcasing the layout, design, and core structure of the original site while keeping things simple and lightweight.
 
