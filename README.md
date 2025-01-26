@@ -19,7 +19,9 @@ CSS3: For styling, layout, and responsiveness.
 How do you use this?
 
 Git Clone git clone: https://github.com/your-username/pokemon-fan-website.git
+
 Navigate to the project directory: 
+
 Open the index.html file in your preferred web browser: open index.html
 
 Contributing
