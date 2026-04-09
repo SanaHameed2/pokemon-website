@@ -1,0 +1,190 @@
+You are a senior frontend developer.
+
+Task: Recreate a pixel-perfect homepage UI inspired by the Pokémon
+official website.
+
+Output Requirements: - Return ONLY code - Provide exactly 2 files: 1.
+index.html 2. styles.css - Do NOT include any explanations - Do NOT
+include
+inside HTML - Link CSS using:  - Do NOT merge files under any condition
+
+If any CSS appears inside HTML, the answer is incorrect.
+
+------------------------------------------------------------------------
+
+GLOBAL LAYOUT:
+
+-   Use a centered container
+-   Max width: 1280px–1360px
+-   Horizontal padding: 16–24px
+-   Use a 12-column grid system
+-   Column gap: 16px
+-   Vertical spacing system: 16px, 24px, 32px, 48px
+-   All sections aligned to grid
+
+------------------------------------------------------------------------
+
+HEADER SECTION:
+
+1.  Top Utility Bar:
+
+-   Height: 64px
+-   Background: #f2f2f2
+-   Horizontal row of logo buttons
+-   Each logo height: ~48px
+-   Gap between logos: 16px
+-   Vertically centered
+
+2.  Main Navigation Bar:
+
+-   Height: 72px
+-   Full width
+-   Each nav item equal width (~120–140px)
+-   Layout inside each item:
+    -   Icon (top, 20–24px)
+    -   Label (bottom, 12–14px)
+    -   4px spacing between icon and label
+-   Active tab:
+    -   Dark gray background (#6b6b6b)
+    -   Bottom border: 3–4px colored strip
+
+------------------------------------------------------------------------
+
+HERO SECTION:
+
+-   Total height: ~440px
+-   Grid split:
+    -   Left: 8 columns (66%)
+    -   Right: 4 columns (34%)
+    -   Gap: 16px
+
+LEFT (MAIN HERO): - Large image (height: 320–360px, object-fit: cover) -
+Bottom overlay panel: - Height: 110–130px - Background: #1f4fa3 -
+Padding: 16–20px
+
+-   Content:
+    -   Title: 18–22px bold
+    -   Description: 13–14px
+    -   ESRB badge (40–50px, bottom-right)
+
+RIGHT (SIDEBAR): - Vertical stack of cards - Each card height:
+150–180px - Gap: 16px
+
+Card types: 1. Text card (purple background, padding 16px) 2. Image
+card: - Image height: ~120px - Bottom overlay: 50–60px (dark
+transparent)
+
+------------------------------------------------------------------------
+
+PROMOTIONAL GRID (3 COLUMNS):
+
+-   3 equal-width cards
+-   Gap: 16px
+-   Card height: 160–180px
+
+Each card: - Top image (~100px height) - Bottom color panel (60–80px) -
+Padding: 12–16px - Text: 14–16px semi-bold
+
+------------------------------------------------------------------------
+
+FEATURED POKÉMON CAROUSEL:
+
+-   Section height: 260–300px
+-   Horizontal scroll layout
+-   Gap between cards: 16px
+
+Each card: - Width: 180–200px - Height: 240–260px
+
+Structure: - Image area: 120–140px (centered) - Info area padding: 12px
+
+Text: - Name: 14–16px bold - Number: 12px
+
+Type badge: - Height: 20–24px - Padding: 4px 8px - Border-radius: 4px
+
+CTA Button: - Width: 200–240px - Height: 40px - Center aligned -
+Margin-top: 16–24px
+
+------------------------------------------------------------------------
+
+MID CONTENT GRID:
+
+-   3-column layout
+-   Gap: 16px
+-   Card height: 200–240px
+
+Each card: - Padding: 16–20px - Title: 16–18px bold - Description:
+13–14px - Line-height: 1.4–1.5
+
+Background colors: - Green - Dark gray/black - Orange
+
+------------------------------------------------------------------------
+
+WHAT’S NEW SECTION:
+
+-   Multi-card grid
+-   3–4 columns
+-   Gap: 16px
+
+Card size: - Width: 280–320px - Height: 180–220px
+
+Structure: - Image or background layer - Overlay color block - Text
+padding: 12–16px
+
+Typography: - Title: 14–16px
+
+CTA Button: - Width: ~180px - Height: 40px - Right aligned
+
+------------------------------------------------------------------------
+
+NEWSLETTER SECTION:
+
+-   Background: #1a1a1a
+-   Padding: 32–40px
+
+Layout: - Two columns (50% / 50%)
+
+Left: - Heading - Inputs: - Height: 40px - Padding: 8–12px - Border: 1px
+solid #ccc
+
+Right: - Checkbox list - Checkbox size: 16–18px
+
+Button: - Width: 120–140px - Height: 40px - Background: #dcdcdc
+
+------------------------------------------------------------------------
+
+FOOTER:
+
+-   Multi-column layout (3–4 columns)
+-   Padding: 32px
+
+Typography: - Headings: 14–16px bold - Links: 12–13px - Line spacing:
+20–24px
+
+Social icons: - Size: 24–28px - Gap: 12–16px
+
+------------------------------------------------------------------------
+
+GLOBAL STYLES:
+
+-   Font: sans-serif
+-   Border radius: mostly 0px
+-   Small radius (badges only): 4px
+-   Colors: vibrant (yellow, blue, green, purple, orange, red, pink)
+
+Spacing system: - 4px, 8px, 16px, 24px, 32px, 48px
+
+Alignment: - Text left-aligned - Cards grid-aligned - Buttons center or
+right aligned
+
+------------------------------------------------------------------------
+
+FINAL RULE:
+
+The layout must strictly follow: - grid alignment - exact spacing
+system - consistent card dimensions - no visual deviation
+
+Return ONLY:
+
+— index.html — (code)
+
+— styles.css — (code)
